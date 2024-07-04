@@ -1,0 +1,15 @@
+function print() {
+    var a =0;
+    if (a<=0) {
+        console.log("error mesage");
+    } else if (a>0) {
+        for (var b = 0; b<10; b++)
+            console.log(a*b);
+    }
+    var c = 1;
+    while (a<=5) {
+        console.log("adil",a);
+        a++;
+    }
+}
+print();
