@@ -1,7 +1,0 @@
-ar a = 10;
- if (a<=0) {
-    console.log("error message");
- } else if (a>0) {
-    for (let b = 0; b<11; b++)
-        console.log(a*b);
- }
